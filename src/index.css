@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+:root {
+
+    --font-family-primary: 'Roboto' , sans-serif;
+    --font-family-secondary: 'Poppins', sans-serif;
+    --font-family-teritiary: 'Open Sans', sans-serif;
+
+    --color-text:  #F4F7FB;
+    --color-subtext: #EEEEEE;
+    --color-topic:  #0163C8;
+
+    --color-header:#101828;
+    --color-body: #687083;
+
+
+}
