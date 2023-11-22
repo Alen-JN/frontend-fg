@@ -1,10 +1,28 @@
-
 import './App.css';
+import {
+  AquaFarm,
+  Footer,
+  Header,
+  Overview,
+  Products,
+  Tech,
+  UseCase
+} from './containers'
+import {Navbar} from './components'
 
 function App() {
   return (
     <div className="App">
-     hello
+      <div>
+        <Navbar/>
+        <Header/>
+      </div>
+      <Overview/>
+      <Products/>
+      <Tech/>
+      <UseCase/>
+      <AquaFarm/>
+      <Footer/>
     </div>
   );
 }
