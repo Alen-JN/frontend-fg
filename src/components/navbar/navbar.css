@@ -3,7 +3,14 @@
     justify-content: center;
     align-items: center;
 
-    padding: 2rem 6rem;
+    /* added from figma */
+    padding: 30px 73px;
+    width: Fixed (1,366px);
+    height: Fixed (80px);
+    top: 30px;
+    left: 73px;
+    justify-content: space-between;
+
 }
 
 .navbar-links{
@@ -11,11 +18,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* figma */
+    width: Hug (493px);
+    height: Hug (27px);
+    gap: 32px;
+
 }
 
 .navbar-links_logo{
     flex: 1;
     margin-right: 2rem;
+
+    /*  */
+    width: 174px;
+    height: 54px;
+
     
 }
 
@@ -48,12 +66,13 @@
 
     color: white;
     font-family: var(--font-family-teritiary);
-    font-weight: 400;
+    font-weight: 200; /* 400 in figma */
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.03em;
     margin:  0 1rem;
     cursor: pointer;
+    
 
 }
 
@@ -62,14 +81,13 @@
     display: flex;
     text-align: right;
     justify-content: end;
-    /* margin-left: 15rem; */
     
 }
 
 .navbar-call button{
     width: Fixed (193px);
     height: Fixed (58px);
-    padding: 10px;
+    padding: 20px; /* 10px */
     border-radius: 40px;
     border: 1px solid white;
     gap: 10px;
@@ -79,9 +97,114 @@
 
     font-family: var(--font-family-teritiary);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
 
+}
+
+
+.navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: rgb(105, 142, 180);
+    color: var(--color-subtext);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu_container p {
+
+    color: white;
+    font-family: var(--font-family-teritiary);
+    font-weight: 200; /* 400 in figma */
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+
+.navbar-menu_container-links-call {
+    display: none;
+}
+
+@media screen and (max-width:1050px) {
+    .navbar{
+        width: 95%;
+    }
+    .navbar-links_container{
+        display: none;
+    }
+    .navbar-menu{
+        display: flex;
+        
+    }
+    
+}
+
+@media  screen and (max-width : 700px) {
+    .navbar{
+        padding: 2rem 4rem;
+    }
+    .navbar-menu{
+        display: flex;
+    }
+    .navbar-menu_container{
+        padding: 20px;
+    }
+}
+
+@media  screen and (max-width : 550px) {
+    .navbar{
+        padding: 2rem 4rem;
+    }
+    .navbar-call{
+        display: none;
+    }
+    .navbar-menu{
+        display: flex;
+    }
+    .navbar-menu_container{
+        padding: 20px;
+    }
+    .navbar-menu_container-links-call{
+        display: block;
+    }
+    .navbar-menu_container-links-call button {
+        width: Fixed (193px);
+    height: Fixed (58px);
+    padding: 10px; /* 10px */
+    border-radius: 40px;
+    border: 1px solid white;
+    gap: 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+
+    font-family: var(--font-family-teritiary);
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    }
 }
