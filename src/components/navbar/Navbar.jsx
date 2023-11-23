@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './navbar.css'
+import {RiMenu3Line , RiCloseLine} from 'react-icons/ri'
+
 
 function Navbar() {
 
@@ -32,6 +34,22 @@ function Navbar() {
         </div>
         <div className='navbar-menu'>
           {/* add menu icon */}
+          {togglemenu
+            ? <RiCloseLine color='#fff' size={27} onClick={() => setTogglemenu(false)}></RiCloseLine>
+            : <RiMenu3Line color='#fff' size={27} onClick={() => setTogglemenu(true)}>  </RiMenu3Line>
+          }
+          {
+          togglemenu && (
+            <div className='navbar-menu_container scale-up-center ' >
+              <div className='navbar-menu_container-links'>
+                <Menu />
+                <div className='navbar-menu_container-links-call'>
+                <button type='button'>Schedule a call</button>
+                </div>
+              </div>
+            </div>
+          )}
+         
         </div>
       </div>
     </div>
