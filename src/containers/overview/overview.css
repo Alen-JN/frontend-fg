@@ -1,114 +1,150 @@
-.overview{
-    display: flex;
-    flex-direction: column;
+.overview {
+  display: flex;
+  flex-direction: column;
 }
 
-.overview-header{
-    flex: 1;
-    justify-content: center;
-    flex-direction: column;
-
+.overview-header {
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.overview-header_subheading{
-    flex: 1;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding-bottom: 20px;
+.overview-header_subheading {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
 
-.overview-header_subheading h4{
-    font-family: var(--font-family-primary);
-    color: var(--color-topic);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0.05em;
+.overview-header_subheading h4 {
+  font-family: var(--font-family-primary);
+  color: var(--color-topic);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.05em;
 }
-.overview-header-heading-cover{
-    display: flex;
-    justify-content: center;
+.overview-header-heading-cover {
+  display: flex;
+  justify-content: center;
 }
-.overview-header-heading{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    /* padding: 24px; */
+.overview-header-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* padding: 24px; */
 
-    width:712px;
-    height: 168px;
-
-}
-
-.overview-header-heading h1{
-    font-family: var(--font-family-primary);
-    color: var(--color-header);
-    font-size: 44px;
-    font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0em;
-    text-align: center;
-
+  width: 712px;
+  height: 168px;
 }
 
-.overview-header-heading p{
-    font-family: var(--font-family-primary);
-    color: var(--color-body);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: center;
-
-    padding-top: 10px;
-
+.overview-header-heading h1 {
+  font-family: var(--font-family-primary);
+  color: var(--color-header);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
-.overview-content{
-    display: flex;
-    flex-direction: column;
-    padding: 4rem 2rem;
+.overview-header-heading p {
+  font-family: var(--font-family-primary);
+  color: var(--color-body);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  padding-top: 10px;
 }
 
-.overview-content_1{
-    display: flex;
-    padding: 4rem 0;
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem 0;
 }
 
-.overview-content_1-image{
- flex: 2;
+.overview-content_1,
+.overview-content_2,
+.overview-content_3 {
+  display: flex;
+  padding: 4rem 0;
 }
 
-.overview-content_1-body{
-    flex: 1.5;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-end; */
-    align-items: flex-start;
+
+
+.overview-content_1-body,
+.overview-content_2-body,
+.overview-content_3-body {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: flex-start;
 }
 
-.overview-content_1-body ul{
-    list-style-image: url('../../media/tick_icon.png');
+.overview-content_1-body ul,
+.overview-content_2-body ul,
+.overview-content_3-body ul {
+  list-style-type: none;
+  padding: 0 30px;
 }
 
-.overview-content_1-body li{
-    font-family: var(--font-family-primary);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-
+.overview-content_1-body li,
+.overview-content_2-body li,
+.overview-content_3-body li {
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-body);
+  padding: 5px;
+  position: relative;
 }
 
-.overview-content_2{
-    display: flex;
-    padding: 4rem 0;
+.overview-content_1-body li::before,
+.overview-content_2-body li::before,
+.overview-content_3-body li::before {
+  content: url("../../media/tick_icon.png");
+  display: inline-block;
+  width: 16px;
+  height: 26px;
+  position: absolute;
+  left: -30px; /* Adjust the left position as needed */
+  top: 50%;
+  transform: translateY(-50%);
 }
-.overview-content_3{
-    display: flex;
-    padding: 4rem 0;
+
+.overview-content_1-image {
+    flex: 2;
+  }
+
+.overview-content_2-image {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.overview-content_3-image {
+  flex: 2;
+}
+
+/* Add the following styles to your CSS */
+
+.overview-footer {
+    padding: 0;
+  }
+  
+  .overview-footer img {
+    width: 100%;
+    max-width: none;
+  }
+  
+  

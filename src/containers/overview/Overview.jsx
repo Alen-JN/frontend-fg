@@ -4,11 +4,13 @@ import {Topic} from '../../components'
 import img1 from '../../media/overview_img1.png'
 import img2 from '../../media/overview_inc.png'
 import img3 from '../../media/overview_img2.png'
-
+import img4 from '../../media/overview_btm.png';
 
 function Overview() {
   return (
-    <div className='overview section__padding'>
+
+    <div className='overview' id='overview'>
+      <div className='overview-sub section__padding'>
       <div className='overview-header'>
         <div className='overview-header_subheading'>
           <h4>OUR OFFERINGS</h4>
@@ -29,6 +31,31 @@ function Overview() {
               <Topic title='Digitize your farm' text='Empower yourself with user-friendly tools to digitize your farm, streamline data management, and make your day-to-day farm tasks easier and more efficient. Explore a range of features:' />
               <ul>
                 <li>
+                Geotag aquaculture ponds
+                </li>
+                <li>
+                Remote pond health monitoring
+                </li>
+                <li>
+                Track seed & feed utilization
+                </li>
+                <li>
+                Weather advisory integration
+                </li>
+                <li>
+                Set up workflows and tasks for the field team
+                </li>
+                <li>
+                Manage alerts and activity log
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div className='overview-content_2'>
+          <div className='overview-content_2-body' >
+            <Topic title='Effortless Traceability' text='Secure end-to-end product traceability from seed to harvest, boosting consumer trust, ensuring quality compliance, and maintaining efficient farm operations.' />
+            <ul>
+                <li>
                 Trace origin of seed and feed inputs
                 </li>
                 <li>
@@ -45,29 +72,43 @@ function Overview() {
                 </li>
               </ul>
           </div>
-        </div>
-        <div className='overview-content_2'>
-          <div>
-            <Topic title='Effortless Traceability' text='Secure end-to-end product traceability from seed to harvest, boosting consumer trust, ensuring quality compliance, and maintaining efficient farm operations.' />
-            {/* sub */}
-            <></>
-          </div>
+          <div className='overview-content_2-image'>
           <img src={img2} alt='image_2' />
+          </div>
         </div>
         <div className='overview-content_3'>
+        <div className='overview-content_3-image'>
           <img src={img3} alt='image_3' />
-          <div>
+          </div>
+          <div className='overview-content_3-body'>
             <Topic title='Insights Made Simple' text="Discover valuable insights of your farm's performance with the help of remote sensing and analytics" />
-            {/* sub */}
-            <></>
+            <ul>
+                <li>
+                Geotag aquaculture ponds
+                </li>
+                <li>
+                Remote pond health monitoring
+                </li>
+                <li>
+                Track seed & feed utilization
+                </li>
+                <li>
+                Weather advisory integration
+                </li>
+                <li>
+                Set up workflows and tasks for the field team
+                </li>
+                <li>
+                Manage alerts and activity log
+                </li>
+              </ul>
           </div>
         </div>
-        <div></div>
-        <div></div>
-      </div>
-      <div className='overview-image'>
-        <img></img>
-      </div>
+        </div>
+        </div>
+        <div className='overview-footer'>
+          <img src={img4} alt='image_4' />
+        </div>
     </div>
   )
 }
