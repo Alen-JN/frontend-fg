@@ -1,0 +1,209 @@
+
+/* .subtech{
+background-color: aqua;
+ padding: 200px 160px 200px 160px; 
+ padding-left: 160px;
+padding-right: 160px; 
+ width: 1,192px;
+height: 991px;
+top: 5558px;
+left: 160px;
+gap: 120px;
+align-content: center; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+
+width: 1,192px;
+height: 991px;
+
+}
+.ourtech{
+    text-align: center;
+    align-items: center;
+    width: 605px;
+height: 259px;
+gap: 32px;
+left: 50%;
+
+}
+.h3{
+    margin-top: -15px
+} */
+/* .Techheading{
+    align-items: center;
+}
+.Techheading1{
+    text-align: center;
+    width: 605px;
+    height: 114px;
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    
+}
+.Techheading2{
+    align-items: center;
+    width: 592px;
+height: 60px;
+padding: 0px 5px;
+text-align: center;
+
+}
+.Techheading2 p{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.distance{
+    margin-top: -12px;
+}
+.TechPhoto{
+    display: flex;
+} */
+/* .Techheading{
+    margin-top: 6px;
+}
+.Techheading1 {
+    text-align: center;
+    width: 605px;
+    height: 114px;
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+  }
+  .Techheading2 {
+    width: 592px;
+    height: 60px;
+    padding: 0px 5px;
+    text-align: center;
+  }
+  .Techheading2 p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .TechPhoto{
+    display: flex;
+}  */
+.Ourtech__feature {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  .Ourtech__feature:hover {
+    transform: scale(1.05);
+  }
+  .Ourtech__feature-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .Ourtech__feature-heading h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #333;
+  }
+  .Ourtech__feature-heading-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  .Tech {
+    background-color: #F5F5F5; /* Set a background color for the entire page */
+    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subtech {
+    /* background-color: aqua; */
+    width: 80%;
+    max-width: 1200px;
+    /* display: flex; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .ourtech {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0163C8;
+    /* align-items: center; */
+    /* display: flex; */
+  }
+  .Techheading {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width:60%;
+    margin:0 auto;
+
+  }
+  .Techheading1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #333;
+    /* margin-bottom: 20px; */
+  }
+  .Techheading1 p{
+   margin-top: 20px;
+    
+  }
+  h4{
+    margin:0px;
+    border: 5px  #0163C8;
+    ;  
+    /* border-width: 5px;  
+    border-style: inset; */
+  }
+  .Techheading2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .TechPhoto {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Add some styles for Features component if needed */
+  .Features {
+    /* Your styles for the Features component */
+  }
+  /* Add responsive styles for smaller screens if needed */
+  @media screen and (max-width: 768px) {
+    .subtech {
+      width: 90%;
+    }
+  }
