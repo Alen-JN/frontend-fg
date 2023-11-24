@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 
-
 function Header() {
 
   const videopath = require('../../media/random1.mp4')
