@@ -10,7 +10,7 @@ function Overview() {
   return (
 
     <div className='overview' id='overview'>
-      <div className='overview-sub section__padding'>
+      <div className='overview-sub section__padding_2'>
       <div className='overview-header'>
         <div className='overview-header_subheading'>
           <h4>OUR OFFERINGS</h4>
@@ -84,22 +84,22 @@ function Overview() {
             <Topic title='Insights Made Simple' text="Discover valuable insights of your farm's performance with the help of remote sensing and analytics" />
             <ul>
                 <li>
-                Geotag aquaculture ponds
+                Get workforce productivity on your farm
                 </li>
                 <li>
-                Remote pond health monitoring
+                Compare & evaluate harvest across ponds
                 </li>
                 <li>
-                Track seed & feed utilization
+                Compare ROI across ponds
                 </li>
                 <li>
-                Weather advisory integration
+                Track water quality parameters & farm status through satellite remote sensing
                 </li>
                 <li>
-                Set up workflows and tasks for the field team
+                Track where your spends are higher
                 </li>
                 <li>
-                Manage alerts and activity log
+                Track shrimp growth KPIs like ABW, survival %, biomass, FCR (feed conversion ratio)
                 </li>
               </ul>
           </div>

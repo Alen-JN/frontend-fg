@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
 }
+.overview-sub{
+    position: relative;
+}
 
 .overview-header {
   flex: 1;
@@ -139,7 +142,9 @@
 /* Add the following styles to your CSS */
 
 .overview-footer {
-    padding: 0;
+    margin-top: -100px;
+    bottom: 0;
+    z-index: 1; 
   }
   
   .overview-footer img {
