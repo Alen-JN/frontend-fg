@@ -5,12 +5,14 @@ import './products.css';
 function Products() {
   return (
     <div className='Products'>
+      <div className='Ourporoduct_top'>
       <div className='ourproducts'>
         <p>OUR PRODUCTS</p>
       </div>
       <div className='ourproducts_description'>
         <p>One-Stop solution for 
-lean aquaculture</p>
+lean aquaculture</p></div>
+</div>
      <div className='Products_Main'>
      <div className='Products_Main-photo1'>
      <div className='Products_Main-text'>
@@ -31,7 +33,14 @@ lean aquaculture</p>
      </div>
      </div>
       {/* // <img src={product1} alt="image not able to load"></img> */}
-     </div>
+     
+      </div>
+      <div className='Product_footer'>
+        <p>Interested in learning more? Get in touch with us to explore our apps.</p>
+        <div>
+          <button type="button">Request a demo</button>
+        </div>
+
       </div>
 
     </div>
