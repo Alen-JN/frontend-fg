@@ -1,9 +1,13 @@
 import React from "react";
 import "./aquafarm.css";
+import { useNavigate } from "react-router-dom";
 import { Heading } from "../../components";
 import img from '../../media/case_study.png'
 
+
 function AquaFarm() {
+
+  // const navigate = useNavigate()
   return (
     <div className="aquafarm section__padding" id="aquafarm">
       <div className="aquafarm-header">
@@ -27,7 +31,7 @@ function AquaFarm() {
               Read about Fishgram -Aqua’s value proposition in the Farms managed
               by Mr. Nishant Reddy
             </p>
-            <button>Lets read <span>&#8594;</span>
+            <button type="button"  >Lets read <span>&#8594;</span>
 </button>
             </div>
           </div>
