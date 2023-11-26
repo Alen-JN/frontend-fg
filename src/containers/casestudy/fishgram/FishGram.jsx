@@ -1,5 +1,5 @@
 import React from 'react'
-import fishgram from '../../media/fishgram.svg'
+import fishgram from '../../../media/fishgram.svg'
 function FishGram() {
   return (
     <div className='Fishgram'>
