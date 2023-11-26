@@ -7,7 +7,7 @@ function Casestudypage() {
     <div className='casestudypage'>
         <div className='gradient__bg'>
             <Navbar/>
-            
+             
         </div>
     </div>
   )
