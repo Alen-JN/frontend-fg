@@ -1,0 +1,101 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+.overview-sub{
+    position: relative;
+}
+
+.overview-header {
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem 0;
+}
+
+.overview-content_1,
+.overview-content_2,
+.overview-content_3 {
+  display: flex;
+  padding: 4rem 0;
+}
+
+
+
+.overview-content_1-body,
+.overview-content_2-body,
+.overview-content_3-body {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: flex-start;
+}
+
+.overview-content_1-body ul,
+.overview-content_2-body ul,
+.overview-content_3-body ul {
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+.overview-content_1-body li,
+.overview-content_2-body li,
+.overview-content_3-body li {
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-body);
+  padding: 5px;
+  position: relative;
+}
+
+.overview-content_1-body li::before,
+.overview-content_2-body li::before,
+.overview-content_3-body li::before {
+  content: url("../../media/tick_icon.png");
+  display: inline-block;
+  width: 16px;
+  height: 26px;
+  position: absolute;
+  left: -30px; /* Adjust the left position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overview-content_1-image {
+    flex: 2;
+  }
+
+.overview-content_2-image {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overview-content_3-image {
+  flex: 2;
+}
+
+
+
+.overview-footer {
+    margin-top: -100px;
+    bottom: 0;
+    z-index: 1; 
+  }
+  
+  .overview-footer img {
+    width: 100%;
+    max-width: none;
+  }
+  
+  

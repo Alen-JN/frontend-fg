@@ -10,20 +10,25 @@ a{
     text-decoration: none;
 }
 
+
 .gradient__bg{
     /* background: linear-gradient(350.81deg, rgba(1, 99, 200, 0.7) 5.23%, rgba(0, 17, 45, 0.7) 39.63%, #00112D 74.04%); */
-
     background-image: url('./media/background1.png');
-    background-size: cover; 
-    background-repeat: no-repeat;     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+
 }
 
 .section__padding{
-    padding: 4rem 6rem;
+    padding: 8rem;
 }
 
+.section__padding_2{
+    padding: 6rem 6rem 0;
+}
 .section__margin{
-    margin: 4rem 6rem;
+    margin: 4rem ;
 }
 
 /* animation? */
@@ -56,22 +61,28 @@ a{
     }
   }
 
-  
-
-@media screen and (max-width:700px) {
+@media screen and (max-width:1120px) {
     .section__padding{
-        padding: 4rem;
-    }
-    .section__margin{
-        margin: 4rem;
+        padding: 4rem 6rem 0rem;
     }
 }
 
 @media screen and (max-width:700px) {
+
+
     .section__padding{
-        padding: 4rem 2rem;
+        padding: 4rem;
     }
     .section__margin{
-        margin: 4rem 2rem;
+        margin: 3rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section__padding{
+        padding: 2rem 4rem;
+    }
+    .section__margin{
+        margin: 3rem 2rem;
     }
 }

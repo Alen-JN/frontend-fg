@@ -102,6 +102,17 @@ text-align: center;
   .TechPhoto{
     display: flex;
 }  */
+
+
+
+
+.tech-header {
+  flex: 1;
+  /* justify-content: center ; */
+  text-align: center;
+  flex-direction: column;
+}
+
 .Ourtech__feature {
     background-color: #fff;
     border-radius: 10px;
