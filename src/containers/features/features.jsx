@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 function Features({image, title,text}) {
   return (
     <div className='Ourtech__feature'>

@@ -2,16 +2,133 @@
 /* .Products_Main-photo1{
 
 } */
-
+.Ourproducts_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 1189px;
+    
+}
+.ourproducts{
+    text-align: center;
+}
+.ourproducts_description{
+    text-align: center;
+    margin: 20px;
+}
+.ourproducts_description h2{
+    margin-bottom: 50px;
+}
+.Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+/* .Ourproducts_top{
+    width: 80%;
+    max-width: 1200px;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} */
 .Products_Main{
     display : flex;
     flex-direction : row;
+    justify-content: center;
+    margin-left: 25px;
+    width: 1200px;
+    height: 654px;
+    gap: 23px;
 }
-.Products_Main-text h5{
+/* .Products_Main-photo1,.Products_Main-photo2{
+    width: 578px;
+    height: 654px;
+} */
+
+.Products_Main-photo1{
+    background-color: #00112D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 32px;
+
+
+}
+.Products_Main-text{
+    width:437px;
+    height: 112px;
+    gap: 16px;
+    margin-top:-9px;
+
+}
+
+.Products_Main-text h3{
     margin-top: 20px;
     margin-bottom: 15px;
+    color: #fff;
+    font-size: 32px;
 }
-.Products_Main-text2 h6{
+.Products_Main-text p{
+    color: #F4F7FB;
+    font-size: 18px;
+
+}
+.photo1{
+    width: 526.18px;
+height: 365px;
+top: 286px;
+left: 26px;
+
+}
+.Products_Main-photo2{
+    background-color: #EAEFF7;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 32px;
+
+}
+.Products_Main-text2{
+    width:437px;
+    height: 112px;
+    gap: 16px;
+    margin-top:-9px;
+
+}
+.Products_Main-text2 h3{
     margin-top: 20px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 32px;
+}
+.Products_Main-text2 p{
+    color: #000;
+    font-size: 18px;
+
+}
+.photo2{
+    width: 526.18px;
+height: 365px;
+top: 286px;
+left: 26px;
+
+}
+.Product_footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.requestbutton button{
+    background-color: #0163C8;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-color: #0163C8;
+    margin-top: 20px;
 }
