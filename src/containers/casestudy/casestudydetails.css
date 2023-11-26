@@ -1,0 +1,7 @@
+.Buttondetails{
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    border-radius: 50%;
+    margin:10px;
+}

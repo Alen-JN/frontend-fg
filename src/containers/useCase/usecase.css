@@ -1,42 +1,42 @@
-.usecase{
-    display: flex;
-    flex-direction: column;
+.usecase {
+  display: flex;
+  flex-direction: column;
 }
 
-.usecase-header{
-    flex: 1;
-    justify-content: center;
-    flex-direction: column;
+.usecase-header {
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .usecase-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 4rem 0rem 0rem;
-  }
-  
-  .usecase-content_1,
-  .usecase-content_2,
-  .usecase-content_3,
-  .usecase-content_4 {
-    display: flex;
-    flex-direction: row;
-    width: 570px; 
-    height: 240px;
-    margin: 10px; 
-    background-color: #EAEFF7  ; 
-    padding: 40px; 
-    border-radius: 28px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 4rem 0rem 0rem;
+}
 
-  .usecase-content_1 img,
+.usecase-content_1,
+.usecase-content_2,
+.usecase-content_3,
+.usecase-content_4 {
+  display: flex;
+  flex-direction: row;
+  width: 570px;
+  height: 240px;
+  margin: 10px;
+  background-color: #eaeff7;
+  padding: 40px;
+  border-radius: 28px;
+}
+
+.usecase-content_1 img,
 .usecase-content_2 img,
 .usecase-content_3 img,
 .usecase-content_4 img {
-  width: 100px; 
-  height: 100px; 
-  margin-top: 20px; 
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
   margin-right: 20px;
 }
 
@@ -53,25 +53,25 @@
 .usecase-content_2-body h4,
 .usecase-content_3-body h4,
 .usecase-content_4-body h4 {
-    font-family: var(--font-family-primary);
-    font-size: 28px;
-    font-weight: 550;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
+  font-family: var(--font-family-primary);
+  font-size: 28px;
+  font-weight: 550;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .usecase-content_1-body p,
 .usecase-content_2-body p,
 .usecase-content_3-body p,
 .usecase-content_4-body p {
-    font-family: var(--font-family-primary);
-    color: var(--color-body);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-  
-    padding-top: 10px;
+  font-family: var(--font-family-primary);
+  color: var(--color-body);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  padding-top: 10px;
 }
