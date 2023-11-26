@@ -103,20 +103,31 @@ text-align: center;
     display: flex;
 }  */
 
+.Tech{
+  padding: 8rem 0 4rem;
+
+}
+
+.subtech{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
 .tech-header {
+  display: flex;
   flex: 1;
   /* justify-content: center ; */
   text-align: center;
   flex-direction: column;
+  padding: 2rem;
 }
 
 .Ourtech__feature {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -127,7 +138,7 @@ text-align: center;
   }
   .Ourtech__feature-image img {
     width: 100%;
-    max-height: 200px;
+    max-height: 250px;
     object-fit: cover;
     border-radius: 8px;
   }
@@ -135,12 +146,29 @@ text-align: center;
     font-size: 24px;
     font-weight: 700;
     margin: 10px 0;
-    color: #333;
+    color: #101828;
+
+
+    font-family:var(--font-family-primary);
+font-size: 32px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+
   }
   .Ourtech__feature-heading-text {
     font-size: 16px;
-    color: #555;
+    color: var(--color-body);
     line-height: 1.5;
+
+    font-family: var(--font-family-primary);
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
   }
   .Tech {
     background-color: #F5F5F5; /* Set a background color for the entire page */
@@ -156,7 +184,7 @@ text-align: center;
     /* display: flex; */
     /* padding: 20px; */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: center;
   }
   .ourtech {
@@ -218,3 +246,28 @@ text-align: center;
       width: 90%;
     }
   }
+  
+/* 
+  .input-container {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .input-container label {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    padding: 2px 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    opacity: 0.5; 
+  }
+
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+  } */
