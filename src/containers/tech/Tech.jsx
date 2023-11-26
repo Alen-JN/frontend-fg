@@ -5,7 +5,7 @@ import { Heading } from '../../components';
 
 function Tech() {
   return (
-    <div className="Tech">
+    <div className="Tech" id='tech'>
 
     <div className="subtech">
       {/* <div className="ourtech">
