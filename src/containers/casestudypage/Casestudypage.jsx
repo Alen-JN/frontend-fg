@@ -13,7 +13,7 @@ function Casestudypage() {
     <div className='casestudypage'>
         <div className='gradient__bg'>
             <Navbar/>
-                <Casestudyheader/>
+            
         </div>
         <CasestudyIntro/>
         <PersonOverview/>
