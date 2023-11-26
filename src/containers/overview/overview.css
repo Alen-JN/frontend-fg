@@ -12,60 +12,6 @@
   flex-direction: column;
 }
 
-.overview-header_subheading {
-  flex: 1;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
-
-.overview-header_subheading h4 {
-  font-family: var(--font-family-primary);
-  color: var(--color-topic);
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0.05em;
-}
-.overview-header-heading-cover {
-  display: flex;
-  justify-content: center;
-}
-.overview-header-heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  /* padding: 24px; */
-
-  width: 712px;
-  height: 168px;
-}
-
-.overview-header-heading h1 {
-  font-family: var(--font-family-primary);
-  color: var(--color-header);
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 57px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-.overview-header-heading p {
-  font-family: var(--font-family-primary);
-  color: var(--color-body);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: center;
-
-  padding-top: 10px;
-}
-
 .overview-content {
   display: flex;
   flex-direction: column;
@@ -139,7 +85,7 @@
   flex: 2;
 }
 
-/* Add the following styles to your CSS */
+
 
 .overview-footer {
     margin-top: -100px;

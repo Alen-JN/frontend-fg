@@ -1,6 +1,6 @@
 import React from 'react'
 import './overview.css'
-import {Topic} from '../../components'
+import {Topic ,Heading} from '../../components'
 import img1 from '../../media/overview_img1.png'
 import img2 from '../../media/overview_inc.png'
 import img3 from '../../media/overview_img2.png'
@@ -12,15 +12,7 @@ function Overview() {
     <div className='overview' id='overview'>
       <div className='overview-sub section__padding_2'>
       <div className='overview-header'>
-        <div className='overview-header_subheading'>
-          <h4>OUR OFFERINGS</h4>
-        </div>
-        <div className='overview-header-heading-cover'> {/* div for center?*/} 
-        <div className='overview-header-heading'>
-          <h1>Harness the power of AI for aquaculture excellence</h1>
-          <p>Experience real time farm insights and cutting-edge remote sensing capabilities</p>
-        </div>
-        </div>
+        <Heading subtitle='OUR OFFERINGS' title='Harness the power of AI for aquaculture excellence' text='Experience real time farm insights and cutting-edge remote sensing capabilities' />
       </div>
       <div className='overview-content'>
         <div className='overview-content_1'>

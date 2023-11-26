@@ -1,14 +1,16 @@
 import React from 'react'
 import Features from '../features/features'
 import './tech.css';
+import { Heading } from '../../components';
+
 function Tech() {
   return (
     <div className="Tech">
 
     <div className="subtech">
-      <div className="ourtech">
+      {/* <div className="ourtech">
         <h4>OUR TECH</h4>
-        
+         
 
       <div className="Techheading">
         <div className='Techheading1'>
@@ -19,7 +21,12 @@ function Tech() {
          <p>Discover a wealth of benefits from our technology empowering your aquaculture business at scale </p>
         </div>
          </div>
-         </div>
+         </div> */}
+
+      <div className='tech-header'>
+        <Heading subtitle='OUR TECH' title='Explore our satellite remote sensing capabilities' text='Discover a wealth of benefits from our technology empowering your aquaculture business at scale ' />
+      </div>
+
          <div className="TechPhoto">
           {/* want to add image */}
          <Features  title="Pond boundary delineation" text="Enables efficient classification, monitoring and management of ponds, optimizing for use of land and water resources sustainably. Applied at scale globally to estimate production volumes."/>
