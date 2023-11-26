@@ -1,6 +1,6 @@
 import React from 'react'
-import harvestdetails from '../../media/Harvestdetails.svg'
-import  harvestimage from '../../media/Harvestimage.svg'
+import harvestdetails from '../../../media/Harvestdetails.svg'
+import  harvestimage from '../../../media/Harvestimage.svg'
 function casestudyHarvest() {
   return (
     <div className='Harvest'>

@@ -4,7 +4,7 @@ import photo2 from '../../media/Photo2.svg'
 import './products.css';
 function Products() {
   return (
-    <div className='Products'>
+    <div className='Products' id='products'>
       <div className='Ourporoduct_top'>
       <div className='ourproducts'>
         <p>OUR PRODUCTS</p>
