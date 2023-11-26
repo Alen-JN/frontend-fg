@@ -9,11 +9,12 @@ import {
   UseCase
 } from './containers'
 import {Navbar} from './components'
+import Casestudypage from './containers/casestudypage/Casestudypage';
 
 function App() {
   return (
     <div className="App">
-      <div className='gradient__bg'>
+      {/* <div className='gradient__bg'>
         <Navbar/>
         <Header/>
       </div>
@@ -22,7 +23,9 @@ function App() {
       <Tech/>
       <UseCase/>
       <AquaFarm/>
-      <Footer/>
+      <Footer/> */}
+
+      <Casestudypage/>
     </div>
   );
 }

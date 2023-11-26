@@ -1,5 +1,5 @@
 import React from 'react'
-import pond from '../../media/Pond.svg'
+import pond from '../../../media/Pond.svg'
 function CasestudyIntro() {
   return (
     <div className='Introtext1'>

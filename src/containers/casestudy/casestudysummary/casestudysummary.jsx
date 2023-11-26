@@ -1,6 +1,6 @@
 import React from 'react'
-import summaryphoto from '../../media/pondsummary.svg'
-import summarydetails from '../../media/summarydetailssvg'
+import summaryphoto from '../../../media/pondsummary.svg'
+import summarydetails from '../../../media/Harvestdetails.svg'
 function casestudysummary() {
   return (
     <div className='summary'>

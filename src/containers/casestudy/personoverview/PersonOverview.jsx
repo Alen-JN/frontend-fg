@@ -1,5 +1,5 @@
 import React from 'react'
-import person from '../../media/person.svg'
+import person from '../../../media/person.svg'
 function PersonOverview() {
   return (
     <div className='Personoverview'>
