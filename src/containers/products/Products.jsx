@@ -10,13 +10,13 @@ function Products() {
         <p>OUR PRODUCTS</p>
       </div>
       <div className='ourproducts_description'>
-        <p>One-Stop solution for 
-lean aquaculture</p></div>
-</div>
+        <h2>One-Stop solution for <br />
+lean aquaculture</h2></div>
+
      <div className='Products_Main'>
      <div className='Products_Main-photo1'>
      <div className='Products_Main-text'>
-     <h5>Farm Digitization Solution</h5>
+     <h3>Farm Digitization Solution</h3>
      <p> Enable your workforce to carry out everyday operations efficiently.</p>
      </div>
      <div className='photo1'>
@@ -25,7 +25,7 @@ lean aquaculture</p></div>
      </div>
      <div className='Products_Main-photo2'>
      <div className='Products_Main-text2'>
-     <h6>Farm Monitoring Solutionn</h6>
+     <h3>Farm Monitoring Solutionn</h3>
      <p> A centralized dashboard to keep track of operations and take informed decisions.</p>
      </div>
      <div className='photo2'>
@@ -37,12 +37,12 @@ lean aquaculture</p></div>
       </div>
       <div className='Product_footer'>
         <p>Interested in learning more? Get in touch with us to explore our apps.</p>
-        <div>
+        <div className='requestbutton'>
           <button type="button">Request a demo</button>
         </div>
 
       </div>
-
+      </div>
     </div>
   )
 }
