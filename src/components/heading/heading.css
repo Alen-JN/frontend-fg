@@ -17,6 +17,7 @@
   .hd-heading_cover {
     display: flex;
     justify-content: center;
+ 
   }
   .hd-heading {
     display: flex;
@@ -27,7 +28,7 @@
     /* padding: 24px; */
   
     width: 712px;
-    height: 168px;
+    height: 228px;
   }
   
   .hd-heading h1 {

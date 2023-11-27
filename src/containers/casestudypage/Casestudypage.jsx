@@ -6,22 +6,27 @@ import {
     CasestudyIntro,
     PersonOverview,
     Fishgram,
-    Testimonial } from '../casestudy'
+    Testimonial, 
+    Casestudychallenge,
+    FishGramaqua} from '../casestudy'
+import Footer from '../footer/Footer'
 
 function Casestudypage() {
   return (
     <div className='casestudypage'>
-        <div className='gradient__bg'>
+        <div className='gradient__bg2'>
             <Navbar/>
-            
+            <Casestudyheader/>
         </div>
         <CasestudyIntro/>
         <PersonOverview/>
+        <Casestudychallenge/>
+        <FishGramaqua/>
 
-
-        <Fishgram/>
         <Testimonial/>
-
+        <Fishgram/>
+       
+        <Footer/>
     </div>
   )
 }

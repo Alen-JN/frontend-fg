@@ -1,0 +1,39 @@
+.casestudyheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+    background-image: url('../../..//media/page2back.png');
+    opacity: .7;
+   height: 100vh ;
+
+   padding: 0 12rem;
+}
+
+.casestudyheader h1{
+    font-family: var(--font-family-primary);
+font-size: 64px;
+font-weight: 700;
+line-height: 83px;
+letter-spacing: -0.03em;
+text-align: center;
+
+color: white;
+
+}
+
+.casestudyheader p{
+    font-family: var(--font-family-primary);
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+
+color: var(--color-text);
+
+padding: 2rem 0;
+
+}
