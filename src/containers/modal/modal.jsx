@@ -1,9 +1,7 @@
-
-
-import modal from '../../media/modal1.svg'
-import React, { useState } from 'react';
-import './modal.css'; // You can define your styles in a separate CSS file
-const Modal = ({isOpen,closeModal}) => {
+import modal from "../../media/modal1.svg";
+import React, { useState } from "react";
+import "./modal.css"; // You can define your styles in a separate CSS file
+const Modal = ({ isOpen, closeModal }) => {
   // const [isOpen, setIsOpen] = useState(false);
 
   // const openModal = () => {
@@ -27,66 +25,63 @@ const Modal = ({isOpen,closeModal}) => {
       {isOpen && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
-           
-              <button className="close-button" onClick={closeModal}>
-                &times;
-              </button>
-            
             <div className="modal-content">
               <div className="left-section">
                 {/* Add your image here */}
-                <img
-                  src={modal}
-                  alt="Sample Image"
-                />
+                <img src={modal} alt="Sample Image" />
               </div>
+
               <div className="right-section">
+                <div>
+                  {" "}
+                  <button className="close-button" onClick={closeModal}>
+                    &times;
+                  </button>
+                </div>
                 <h2>Let's Connect...</h2>
                 <form>
-                <label
-htmlFor='name'>Name</label>
+                  <div className="form-group">
+                    <label htmlFor="name">Name</label>
 
-          
-<input
-type='text'
-id='companyname'
-name='companyname'
-required />     
-<label
-htmlFor='name'>Company Name</label>
+                    <input
+                      type="text"
+                      id="companyname"
+                      name="companyname"
+                      required
+                    />
+                  </div>
+                  
+                  <div className="form-group">
+                    <label htmlFor="name">Company Name</label>
+                    <input type="text" id="designation" name="name" required />
+                  </div>
 
-          
-<input
-type='text'
-id='designation'
-name='name'
-required />
-<label
-htmlFor='name'>Designation</label>
+                  <div className="form-group">
+                    <label htmlFor="name">Designation</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
 
-          
-<input
-type='text'
-id='name'
-name='name'
-required /> 
-<label
-htmlFor='email'>Email:</label>
-<input
-type='email'
-id='email'
-name='email'
-required />   
-      <label htmlFor="mobile">Mobile No</label>
-<input type="tel" id="mobile" name="mobile" required />
-<label
-htmlFor='message'>Message</label>
-<textarea
-id='message'
-name='message' rows='5' required></textarea>
+                  <div className="form-group">
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div className="form-group">
+                    <label htmlFor="mobile">Mobile No</label>
+                    <input type="tel" id="mobile" name="mobile" required />
+                  </div>
+
+                  <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
 
                   <div className="modal-buttons">
-                    
                     <button type="button" onClick={handleSubmit}>
                       Submit
                     </button>
@@ -97,8 +92,6 @@ name='message' rows='5' required></textarea>
           </div>
         </div>
       )}
-
-     
     </div>
   );
 };
@@ -113,21 +106,18 @@ export default Modal;
 //       <div className='modal-content'>
 //         <h2>Request a Demo</h2>
 
-        
-// <form>    
+// <form>
 // <label
 // htmlFor='name'>Name</label>
 
-          
 // <input
 // type='text'
 // id='companyname'
 // name='companyname'
-// required />     
+// required />
 // <label
 // htmlFor='name'>Company Name</label>
 
-          
 // <input
 // type='text'
 // id='designation'
@@ -136,19 +126,18 @@ export default Modal;
 // <label
 // htmlFor='name'>Designation</label>
 
-          
 // <input
 // type='text'
 // id='name'
 // name='name'
-// required /> 
+// required />
 // <label
 // htmlFor='email'>Email:</label>
 // <input
 // type='email'
 // id='email'
 // name='email'
-// required />   
+// required />
 //       <label htmlFor="mobile">Mobile No</label>
 // <input type="tel" id="mobile" name="mobile" required />
 // <label

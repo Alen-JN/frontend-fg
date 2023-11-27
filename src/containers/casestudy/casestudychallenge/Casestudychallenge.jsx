@@ -20,7 +20,7 @@ function Casestudychallenge() {
                 <div className='challenge-content_1-img'>
                     <img src={img1} alt='one' />
                 </div>
-                <div className='chalenge-content_1-body'>
+                <div className='challenge-content_1-body'>
                     <h4>Cost Management</h4>
                     <p>The absence of traceability meant that vital cost factors, such as feed, seed, and operational expenses, were not precisely measured at the farm or pond level. Questions loomed in his mind:</p>
                     <ul>
@@ -32,7 +32,7 @@ function Casestudychallenge() {
                 </div>
             </div>
             <div className='challenge-content_2'>
-            <div className='chalenge-content_2-body'>
+            <div className='challenge-content_2-body'>
                     <h4>Cultivation Challenges</h4>
                     <p>The absence of traceability also meant that essential key performance indicators (KPIs) related to pond health and productivity remained elusive, hindering timely corrective actions. Nishant pondered:</p>
                     <ul>

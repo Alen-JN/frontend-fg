@@ -6,7 +6,8 @@ import {
     Overview,
     Products,
     Tech,
-    UseCase
+    UseCase,
+    Schedulecall
   } from '../../containers'
   import {Navbar} from '../../components'
 
@@ -22,6 +23,7 @@ function Homepage() {
       <Tech/>
       <UseCase/>
       <AquaFarm/>
+      <Schedulecall/>
       <Footer/>
     </div>
   )
