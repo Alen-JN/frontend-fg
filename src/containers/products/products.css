@@ -31,6 +31,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+
 }
 /* .Ourproducts_top{
     width: 80%;
@@ -40,6 +41,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 } */
+
 .Products_Main {
   display: flex;
   flex-direction: row;
@@ -182,4 +184,24 @@ line-height: 22px;
 letter-spacing: -0.03em;
 text-align: center;
 
+}
+.photo2{
+    width: 526.18px;
+height: 365px;
+top: 286px;
+left: 26px;
+
+}
+.Product_footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.requestbutton button{
+    background-color: #0163C8;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-color: #0163C8;
+    margin-top: 20px;
 }

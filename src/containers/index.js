@@ -5,7 +5,7 @@ export { default as Overview } from "./overview/Overview"
 export { default as Products } from "./products/Products"
 export { default as Tech } from "./tech/Tech"
 export { default as UseCase } from "./useCase/UseCase"
-
+export { default as Schedulecall} from "./schedulecall/Schedulecall"
 
 
 
