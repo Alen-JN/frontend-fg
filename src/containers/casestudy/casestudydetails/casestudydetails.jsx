@@ -17,11 +17,11 @@ function casestudydetails() {
         <div className='Summarybg'>
         <div className='summary'>
         <div className='summaryimage'>
-            <img src={summaryphoto} alt="image"/>
+            <img alt="image"/>
         </div>
         <div className='summarydetails'>
             <h5>Summary</h5>
-        <img src={summarydetails} alt="image"/>
+        <img  alt="image"/>
         </div>
       
     </div>

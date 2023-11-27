@@ -1,6 +1,6 @@
 import React from "react";
 import "./aquafarm.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Heading } from "../../components";
 import img from '../../media/case_study.png'
 
@@ -31,8 +31,11 @@ function AquaFarm() {
               Read about Fishgram -Aqua’s value proposition in the Farms managed
               by Mr. Nishant Reddy
             </p>
+         <a href='/casestudy'>
             <button type="button"  >Lets read <span>&#8594;</span>
 </button>
+</a>
+
             </div>
           </div>
         </div>

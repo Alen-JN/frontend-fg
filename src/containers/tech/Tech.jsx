@@ -8,24 +8,9 @@ import { Heading } from '../../components';
 
 function Tech() {
   return (
-    <div className="Tech">
+    <div className="Tech " id='tech'>
 
     <div className="subtech">
-      {/* <div className="ourtech">
-        <h4>OUR TECH</h4>
-         
-
-      <div className="Techheading">
-        <div className='Techheading1'>
-           <p>Explore our satellite <br/>remote sensing capabilities </p>
-         
-        </div>
-      <div className='Techheading2'>
-         <p>Discover a wealth of benefits from our technology empowering your aquaculture business at scale </p>
-        </div>
-         </div>
-         </div> */}
-
       <div className='tech-header'>
         <Heading subtitle='OUR TECH' title='Explore our satellite remote sensing capabilities' text='Discover a wealth of benefits from our technology empowering your aquaculture business at scale ' />
       </div>

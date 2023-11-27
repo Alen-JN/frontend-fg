@@ -4,7 +4,7 @@ function sampling() {
   return (
     <div className='samplings'>
         <div className='samplingimage'>
-        <img src={image} alt="image"/>
+        <img  alt="image"/>
         </div>
         <div className='sampledetails'>
             
